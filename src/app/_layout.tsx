@@ -1,5 +1,6 @@
-import "../styles/global.css";
+import "@/styles/global.css";
 
+import Loading from "@/components/loading";
 import { Slot } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 
@@ -17,13 +18,10 @@ export default function Layout() {
     Roboto_400Regular,
   });
 
-  if (!fontsLoaded) {
-    return;
-  }
   return (
     <>
       <StatusBar style="light" />
-      <Slot />
+      {fontsLoaded ? <Slot /> : <Loading />}
     </>
   );
 }
