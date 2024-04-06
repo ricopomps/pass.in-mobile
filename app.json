@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "pass.in-mobile",
-    "slug": "pass.in-mobile",
+    "slug": "passin",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -34,6 +34,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "097e435e-eeaa-48e6-9b77-c39d254d1239"
+      }
+    },
+    "owner": "ricopomps"
   }
 }
