@@ -10,7 +10,7 @@ import { Link, router } from "expo-router";
 import { useState } from "react";
 import { Alert, Image, View } from "react-native";
 
-const EVENT_ID = "2c589bfb-c7f8-48dc-8393-b4bdd2485524";
+const EVENT_ID = "77833a57-5ade-4618-8081-365d64636bc7";
 
 export default function Register() {
   const [name, setName] = useState("");

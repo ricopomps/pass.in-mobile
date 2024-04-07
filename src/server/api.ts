@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://192.168.1.172:3333",
+  baseURL: "https://pass-in-api-lyart.vercel.app",
 });
